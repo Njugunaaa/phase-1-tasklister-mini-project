@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       const deleteButton = document.createElement("button");
       deleteButton.textContent = "❌";
-      deleteButton.style.marginLeft = "15px";
+      deleteButton.style.marginLeft = "12px";
 
       deleteButton.addEventListener("click", () => {
         lists.removeChild(listItem);
